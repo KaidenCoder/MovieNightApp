@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">Movie Night App</string>
+
+    <string name="no_internet_message">Please connect to the internet first.</string>
+    <string name="filtered_movies_tab_title">MOVIES</string>
+    <string name="filtered_tv_shows_tab_title">TV SHOWS</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Settings for settings headers -->
+    <string name="pref_header_movies">Movies Filters</string>
+    <string name="pref_header_tv_shows">TV Shows Filters</string>
+
+    <!-- Strings for CardDetails Min Rating Preference [CHAR LIMIT=30] -->
+    <string name="pref_movie_min_vote_avg_default_value">4.5</string>
+    <string name="pref_movie_min_vote_avg_title">Minimum rating</string>
+    <string name="pref_movie_min_vote_avg_key">movie_min_vote_avg</string>
+
+    <!-- Strings for CardDetails Min Vote Count Preference [CHAR LIMIT=30] -->
+    <string name="pref_movie_min_vote_count_default_value">100</string>
+    <string name="pref_movie_min_vote_count_title">Minimum number of ratings</string>
+    <string name="pref_movie_min_vote_count_key">movie_min_vote_count</string>
+
+    <!-- Strings for CardDetails Min Release Date Preference [CHAR LIMIT=30] -->
+    <string name="pref_movie_min_release_date_default_value">1985-01-01</string>
+    <string name="pref_movie_min_release_date_title">Minimum release date</string>
+    <string name="pref_movie_min_release_date_key">movie_min_release_date</string>
+
+    <!-- Strings for CardDetails Max Release Date Preference [CHAR LIMIT=30] -->
+    <string name="pref_movie_max_release_date_default_value">2019-03-13</string>
+    <string name="pref_movie_max_release_date_title">Maximum release date</string>
+    <string name="pref_movie_max_release_date_key">movie_max_release_date</string>
+
+    <!-- Strings for CardDetails Original Language  Preference [CHAR LIMIT=30] -->
+    <string name="pref_movie_original_language_title">Original language</string>
+    <string name="pref_movie_original_language_key">movie_original_language</string>
+    <string name="pref_movie_original_language_default_value">en</string>
+    <string-array name="pref_movie_original_language_list_titles">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Turkish</item>
+        <item>German</item>
+        <item>Russian</item>
+    </string-array>
+    <string-array name="pref_movie_original_language_list_values">
+        <item>en</item>
+        <item>es</item>
+        <item>pt</item>
+        <item>tr</item>
+        <item>de</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- Strings for CardDetails Sort-By Preference [CHAR LIMIT=30] -->
+    <!-- Allowed Values: popularity.asc, popularity.desc, release_date.asc, release_date.desc,
+        revenue.asc, revenue.desc, primary_release_date.asc, primary_release_date.desc,
+        original_title.asc, original_title.desc, vote_average.asc, vote_average.desc,
+        vote_count.asc, vote_count.desc, default: popularity.desc -->
+    <string name="pref_movie_sort_by_title">Sort by</string>
+    <string name="pref_movie_sort_by_key">movie_sort_by</string>
+    <string name="pref_movie_sort_by_default_value">popularity.desc</string>
+    <string-array name="pref_movie_sort_by_list_titles">
+        <item>Popularity descending</item>
+        <item>Popularity ascending</item>
+        <item>Release date descending</item>
+        <item>Release date ascending</item>
+        <item>Rating descending</item>
+        <item>Rating ascending</item>
+        <item>Votes number descending</item>
+        <item>Votes number ascending</item>
+        <item>Title descending</item>
+        <item>Title ascending</item>
+        <item>Revenue descending</item>
+        <item>Revenue ascending</item>
+    </string-array>
+    <string-array name="pref_movie_sort_by_list_values">
+        <item>popularity.desc</item>
+        <item>popularity.asc</item>
+        <item>primary_release_date.desc</item>
+        <item>primary_release_date.asc</item>
+        <item>vote_average.desc</item>
+        <item>vote_average.asc</item>
+        <item>vote_count.desc</item>
+        <item>vote_count.asc</item>
+        <item>original_title.desc</item>
+        <item>original_title.asc</item>
+        <item>revenue.desc</item>
+        <item>revenue.asc</item>
+    </string-array>
+
+    <!-- Strings for CardDetails Genres Preference [CHAR LIMIT=30] -->
+    <string name="pref_movie_genres_key">movie_genres</string>
+    <string name="pref_movie_genres_title">Genres</string>
+    <string-array name="pref_movie_genres_default_values">
+        <item>28</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="pref_movie_genres_list_titles">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Family</item>
+        <item>Fantasy</item>
+        <item>History</item>
+        <item>Horror</item>
+        <item>Music</item>
+        <item>Mystery</item>
+        <item>Romance</item>
+        <item>Science Fiction</item>
+        <item>TV Movie</item>
+        <item>Thriller</item>
+        <item>War</item>
+        <item>Western</item>
+    </string-array>
+    <string-array name="pref_movie_genres_list_values">
+        <item>28</item>
+        <item>12</item>
+        <item>16</item>
+        <item>35</item>
+        <item>80</item>
+        <item>99</item>
+        <item>18</item>
+        <item>10751</item>
+        <item>14</item>
+        <item>36</item>
+        <item>27</item>
+        <item>10402</item>
+        <item>9648</item>
+        <item>10749</item>
+        <item>878</item>
+        <item>10770</item>
+        <item>53</item>
+        <item>10752</item>
+        <item>37</item>
+    </string-array>
+
+
+    <!-- Strings for TV Show Min Rating Preference [CHAR LIMIT=30] -->
+    <string name="pref_tv_show_min_vote_avg_default_value">4.5</string>
+    <string name="pref_tv_show_min_vote_avg_title">Minimum rating</string>
+    <string name="pref_tv_show_min_vote_avg_key">tv_show_min_vote_avg</string>
+
+    <!-- Strings for TV Show Min Vote Count Preference [CHAR LIMIT=30] -->
+    <string name="pref_tv_show_min_vote_count_default_value">100</string>
+    <string name="pref_tv_show_min_vote_count_title">Minimum number of ratings</string>
+    <string name="pref_tv_show_min_vote_count_key">tv_show_min_vote_count</string>
+
+    <!-- Strings for TV Show Min Release Date Preference [CHAR LIMIT=30] -->
+    <string name="pref_tv_show_min_release_date_default_value">1985-01-01</string>
+    <string name="pref_tv_show_min_release_date_title">Minimum release date</string>
+    <string name="pref_tv_show_min_release_date_key">tv_show_min_release_date</string>
+
+    <!-- Strings for TV Show Max Release Date Preference [CHAR LIMIT=30] -->
+    <string name="pref_tv_show_max_release_date_default_value">2019-03-13</string>
+    <string name="pref_tv_show_max_release_date_title">Maximum release date</string>
+    <string name="pref_tv_show_max_release_date_key">tv_show_max_release_date</string>
+
+    <!-- Strings for TV Show Original Language  Preference [CHAR LIMIT=30] -->
+    <string name="pref_tv_show_original_language_title">Original language</string>
+    <string name="pref_tv_show_original_language_key">tv_show_original_language</string>
+    <string name="pref_tv_show_original_language_default_value">en</string>
+    <string-array name="pref_tv_show_original_language_list_titles">
+        <item>English</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Turkish</item>
+        <item>German</item>
+        <item>Russian</item>
+    </string-array>
+    <string-array name="pref_tv_show_original_language_list_values">
+        <item>en</item>
+        <item>es</item>
+        <item>pt</item>
+        <item>tr</item>
+        <item>de</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- Strings for TV Show Sort-By Preference [CHAR LIMIT=30] -->
+    <!-- Allowed Values: vote_average.desc, vote_average.asc, first_air_date.desc,
+        first_air_date.asc, popularity.desc, popularity.asc; default: popularity.desc -->
+    <string name="pref_tv_show_sort_by_title">Sort by</string>
+    <string name="pref_tv_show_sort_by_key">tv_show_sort_by</string>
+    <string name="pref_tv_show_sort_by_default_value">popularity.desc</string>
+    <string-array name="pref_tv_show_sort_by_list_titles">
+        <item>Popularity descending</item>
+        <item>Popularity ascending</item>
+        <item>First air date descending</item>
+        <item>First air date ascending</item>
+        <item>Rating descending</item>
+        <item>Rating ascending</item>
+    </string-array>
+    <string-array name="pref_tv_show_sort_by_list_values">
+        <item>popularity.desc</item>
+        <item>popularity.asc</item>
+        <item>first_air_date.desc</item>
+        <item>first_air_date.asc</item>
+        <item>vote_average.desc</item>
+        <item>vote_average.asc</item>
+    </string-array>
+
+    <!-- Strings for TV Show Genres Preference [CHAR LIMIT=30] -->
+    <string name="pref_tv_show_genres_key">tv_show_genres</string>
+    <string name="pref_tv_show_genres_title">Genres</string>
+    <string-array name="pref_tv_show_genres_default_values">
+        <item>10759</item>
+    </string-array>
+    <string-array name="pref_tv_show_genres_list_titles">
+        <item>Action &amp; Adventure</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Family</item>
+        <item>Kids</item>
+        <item>Mystery</item>
+        <item>News</item>
+        <item>Reality</item>
+        <item>Sci-Fi &amp; Fantasy</item>
+        <item>Soap</item>
+        <item>Talk</item>
+        <item>War &amp; Politics</item>
+        <item>Western</item>
+    </string-array>
+    <string-array name="pref_tv_show_genres_list_values">
+        <item>10759</item>
+        <item>16</item>
+        <item>35</item>
+        <item>80</item>
+        <item>99</item>
+        <item>18</item>
+        <item>10751</item>
+        <item>10762</item>
+        <item>9648</item>
+        <item>10763</item>
+        <item>10764</item>
+        <item>10765</item>
+        <item>10766</item>
+        <item>10767</item>
+        <item>10768</item>
+        <item>37</item>
+    </string-array>
+
+</resources>
+
